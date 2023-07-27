@@ -1,0 +1,50 @@
+[
+    {
+      "type": "categorical",
+      "attributes": {
+        "name": "dataset_config_name",
+        "choices": [
+          "ceia-entidades",
+          "datalawyer-ner",
+          "fgv-coarse"
+        ]
+      }
+    },
+    {
+      "type": "categorical",
+      "attributes": {
+        "name": "model_name_or_path",
+        "choices": [
+          "neuralmind/bert-base-portuguese-cased",
+          "neuralmind/bert-large-portuguese-cased",
+          "eduagarcia-temp/brwac_v1_2__checkpoint_last",
+          "eduagarcia-temp/brwac_large_v1_2__checkpoint_last",
+          "eduagarcia-temp/cnj_v1_2__checkpoint_last",
+          "eduagarcia/r_j_v2_checkpoint_12000",
+          "projetocnj/roberta-base-juridico-v0.3"
+        ]
+      }
+    },
+    {
+      "type": "categorical",
+      "attributes": {
+        "name": "learning_rate",
+        "choices": [
+          7.5e-6,
+          1e-5,
+          2.5e-5,
+          5e-5
+        ]
+      }
+    },
+    {
+      "type": "categorical",
+      "attributes": {
+        "name": "per_device_train_batch_size",
+        "choices": [
+          16,
+          32
+        ]
+      }
+    }
+]

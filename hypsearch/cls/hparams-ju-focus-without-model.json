@@ -1,0 +1,34 @@
+[
+    {
+      "type": "categorical",
+      "attributes": {
+        "name": "dataset_config_name",
+        "choices": [
+          "brazilian_court_decisions_judgment",
+          "brazilian_court_decisions_unanimity"
+        ]
+      }
+    },
+    {
+      "type": "categorical",
+      "attributes": {
+        "name": "learning_rate",
+        "choices": [
+          7.5e-6,
+          1e-5,
+          2.5e-5,
+          5e-5
+        ]
+      }
+    },
+    {
+      "type": "categorical",
+      "attributes": {
+        "name": "per_device_train_batch_size",
+        "choices": [
+          16,
+          32
+        ]
+      }
+    }
+]

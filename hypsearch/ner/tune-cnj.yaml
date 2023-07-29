@@ -1,7 +1,5 @@
 script_path: scripts/run_ner.py
 dataset_name: eduagarcia/cnj_benchmarks
-dataset_config_name: harem-default
-model_name_or_path: neuralmind/bert-base-portuguese-cased
 do_train: true
 do_eval: true
 do_predict: true

@@ -1,7 +1,7 @@
 PROJECT_NAME="evaluate_lm_tese"
 RUN_NAME="cnj_ner_focus_v1"
 TYPE="ner"
-export CUDA_VISIBLE_DEVICES=1
+export CUDA_VISIBLE_DEVICES=5
 export WANDB_PROJECT=${PROJECT_NAME}
 export WANDB_TAGS=${RUN_NAME}
 HYP_PATH="./hypsearch/${TYPE}"

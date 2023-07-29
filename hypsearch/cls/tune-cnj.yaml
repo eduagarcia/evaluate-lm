@@ -25,4 +25,3 @@ adam_epsilon: 1e-6
 early_stopping_patience: 3
 early_stopping_threshold: 0.001
 max_seq_length: 256
-max_train_samples: 50

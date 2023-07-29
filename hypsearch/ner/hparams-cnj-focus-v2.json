@@ -1,0 +1,51 @@
+[
+    {
+      "type": "categorical",
+      "attributes": {
+        "name": "dataset_config_name",
+        "choices": [
+          "ceia-entidades",
+          "fgv-coarse"
+        ]
+      }
+    },
+    {
+      "type": "categorical",
+      "attributes": {
+        "name": "model_name_or_path",
+        "choices": [
+          "alfaneo/jurisbert-base-portuguese-uncased",
+          "alfaneo/bertimbaulaw-base-portuguese-cased",
+          "joelito/legal-portuguese-roberta-large",
+          "joelito/legal-xlm-roberta-base",
+          "joelito/legal-xlm-roberta-large",
+          "felipemaiapolo/legalnlp-bert",
+          "PORTULAN/albertina-ptbr-base",
+          "PORTULAN/albertina-ptbr",
+          "diiogo/caju128k"
+        ]
+      }
+    },
+    {
+      "type": "categorical",
+      "attributes": {
+        "name": "learning_rate",
+        "choices": [
+          7.5e-6,
+          1e-5,
+          2.5e-5,
+          5e-5
+        ]
+      }
+    },
+    {
+      "type": "categorical",
+      "attributes": {
+        "name": "per_device_train_batch_size",
+        "choices": [
+          16,
+          32
+        ]
+      }
+    }
+]

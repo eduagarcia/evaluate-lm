@@ -22,6 +22,6 @@ weight_decay: 0.01
 adam_beta1: 0.9
 adam_beta2: 0.999
 adam_epsilon: 1e-6
-early_stopping_patience:3
+early_stopping_patience: 3
 early_stopping_threshold: 0.001
 max_seq_length: 256

@@ -1,0 +1,4 @@
+transformers
+seqeval
+evaluate
+accelerate

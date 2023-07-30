@@ -1,7 +1,6 @@
-export CUDA_VISIBLE_DEVICES=3
-sh run_all eduagarcia-temp/cnj_large_v1_2_dinkytrain__checkpoint_10_52000
-sh run_all eduagarcia-temp/cnj_large_v1_2_dinkytrain_weird__checkpoint_10_52000
-sh run_all eduagarcia-temp/brwac_large_v1_2__checkpoint_6
-sh run_all eduagarcia-temp/brwac_v1_2__checkpoint_8
-sh run_all eduagarcia-temp/brwac_v1_1__checkpoint_last
-sh run_all eduagarcia-temp/brwac_v1_1__checkpoint_8
+sh run_all.sh eduagarcia-temp/cnj_large_v1_2_dinkytrain__checkpoint_10_52000
+sh run_all.sh eduagarcia-temp/cnj_large_v1_2_dinkytrain_weird__checkpoint_10_52000
+sh run_all.sh eduagarcia-temp/brwac_large_v1_2__checkpoint_6
+sh run_all.sh eduagarcia-temp/brwac_v1_2__checkpoint_8
+sh run_all.sh eduagarcia-temp/brwac_v1_1__checkpoint_last
+sh run_all.sh eduagarcia-temp/brwac_v1_1__checkpoint_8

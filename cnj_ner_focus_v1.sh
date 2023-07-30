@@ -1,5 +1,5 @@
 PROJECT_NAME="evaluate_lm_tese"
-RUN_NAME="cnj_ner_focus_v1"
+RUN_NAME="cnj_ner_focus_v1_retry"
 TYPE="ner"
 export WANDB_PROJECT=${PROJECT_NAME}
 export WANDB_TAGS=${RUN_NAME}

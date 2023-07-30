@@ -1,1 +1,1 @@
-optuna delete-study --storage sqlite:////workspace/models/evaluate_lm_tese/db.sqlite3 --study-name cnj_ner_focus_v2
+optuna delete-study --storage sqlite:////workspace/models/evaluate_lm_tese/db.sqlite3 --study-name cnj_ner_focus_v1_retry

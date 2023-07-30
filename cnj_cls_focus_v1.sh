@@ -17,4 +17,5 @@ datalawyer_tune tune huggingface_script \
   --skip-if-exists \
   --storage sqlite:////workspace/models/${PROJECT_NAME}/db.sqlite3 \
   --skip-exception \
-  --delete-checkpoints
+  --delete-checkpoints \
+  --max-retry 5

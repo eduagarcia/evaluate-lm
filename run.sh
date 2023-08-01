@@ -16,7 +16,7 @@ datalawyer_tune tune huggingface_script \
   ${HYP_PATH}/tune-${DATASET_GROUP}.yaml \
   ${HYP_PATH}/hparams-${DATASET_GROUP}-focus-without-model.json \
   --optuna-param-path ${HYP_PATH}/config.json \
-  --serialization-dir /workspace/models/${PROJECT_NAME}/${RUN_NAME} \
+  --serialization-dir /workspace/models/${PROJECT_NAME}/${model_name}/${DATASET_GROUP}_${TYPE}_focus \
   --metrics "eval_f1" \
   --study-name ${RUN_NAME} \
   --direction maximize \
